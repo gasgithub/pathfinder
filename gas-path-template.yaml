@@ -204,7 +204,7 @@ objects:
         - pathfinder-server
         from:
           kind: ImageStreamTag
-          name: pathfinder-server:latest
+          name: gas-path-server:latest
       type: ImageChange
 - apiVersion: v1
   kind: Service
@@ -324,7 +324,7 @@ objects:
         - pathfinder-ui
         from:
           kind: ImageStreamTag
-          name: pathfinder-ui:latest
+          name: gas-path-ui:latest
       type: ImageChange
     - type: ConfigChange
   status:
